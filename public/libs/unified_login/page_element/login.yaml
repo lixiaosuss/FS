@@ -1,0 +1,9 @@
+进入飞书首页_关闭弹窗: "xpath==//div[@data-elem-id='MC2ANWQ36m']"
+进入飞书首页_点击登录: "xpath==//div/a[text()='登录']"
+选择账号登录: 'xpath==//span[@class="universe-icon switch-icon"]//*[name()="svg"]'
+输入账号: "xpath==//input[@placeholder='请输入你的手机号']"
+勾选协议: 'xpath==//input[@type="checkbox"]'
+点击下一步: 'xpath==//button[text()="下一步"]'
+输入密码: 'xpath==//input[@placeholder="请输入密码"]'
+点击登录: 'xpath==//div[@class="step-box__footer"]/button[text()="下一步"]'
+

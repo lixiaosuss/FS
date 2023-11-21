@@ -2,6 +2,7 @@ import os
 import yaml
 from libs.config.conf import PUBLIC_ELEMENT_PATH
 
+print(PUBLIC_ELEMENT_PATH)
 
 class Element:
     """获取元素"""
@@ -22,3 +23,7 @@ class Element:
             return name, value
         raise ArithmeticError("{}中不存在关键字：{}".format(self.file_name, item))
 
+
+if __name__ == '__main__':
+    search = Element('login')
+    print(search['zx扫码快捷登录'])

@@ -1,0 +1,14 @@
+#登录定位元素
+
+
+点击更多: "xpath==//div[@_pp-theme='light']/span/*[name()='svg']"
+选择模块: "xpath==//div[@title='消息']"
+获取当前页面联系人: "xpath==//div[@class='feed']//p"
+选择联系人: "xpath==//div[@class='feed']//p[text()='variable']"
+输入文本: "xpath==//div[@class='chatEditor']//pre"
+
+
+
+##########################################################################断言###################################################################
+
+消息发送成功: 'xpath==//span[text()="variable"]'

@@ -14,6 +14,7 @@ def readCsvDict(path):
             # return lists #读取完第一行，返回第一行。
     return lists  # 每读取完一行就返回整个列表
 
+
 if __name__ == '__main__':
     # 直接输出，检查代码是否能正常运行
     print(readCsvDict(path))

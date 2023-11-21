@@ -3,7 +3,7 @@ import yaml
 from libs.config.conf import PEROJECT_PATH
 
 class Element:
-
+    """获取元素"""
     def __init__(self, project, name):
 
         ELEMENT_PATH = os.path.join(PEROJECT_PATH, project, 'page_element')
@@ -22,5 +22,7 @@ class Element:
             return name, value
         raise ArithmeticError("{}中不存在关键字：{}".format(self.file_name, item))
 
-    if __name__ == '__main__':
-        pass
+
+if __name__ == '__main__':
+    search = Element('DRP','SystemMgmt_RegionMgmt')
+    print(search['tab区域菜单一级菜单'])
